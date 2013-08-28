@@ -1,1 +1,10 @@
-../../../../../../share/pyshared/horizon/templates/auth/login.html
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block title %}{% trans "Login" %}{% endblock %}
+
+{% block body_id %}splash{% endblock %}
+
+{% block content %}
+  {% include 'auth/_login.html' %}
+{% endblock %}

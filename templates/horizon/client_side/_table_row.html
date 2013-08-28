@@ -1,1 +1,10 @@
-../../../../../../../share/pyshared/horizon/templates/horizon/client_side/_table_row.html
+{% extends "horizon/client_side/template.html" %}
+{% load horizon %}
+
+{% block id %}empty_row_template{% endblock %}
+
+{% block template %}
+{% jstemplate %}
+<tr class="odd empty"><td colspan="[[colspan]]">No items to display.</td></tr>
+{% endjstemplate %}
+{% endblock %}

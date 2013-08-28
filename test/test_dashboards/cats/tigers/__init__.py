@@ -1,1 +1,0 @@
-../../../../../../../../share/pyshared/horizon/test/test_dashboards/cats/tigers/__init__.py

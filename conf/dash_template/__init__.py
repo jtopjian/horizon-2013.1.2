@@ -1,1 +1,0 @@
-../../../../../../share/pyshared/horizon/conf/dash_template/__init__.py

@@ -1,1 +1,3 @@
-../../../../../../../share/pyshared/horizon/templates/horizon/common/_data_table_row.html
+<tr{{ row.attr_string|safe }}>
+  {% for cell in row %}<td{{ cell.attr_string|safe }}>{{ cell.value }}</td>{% endfor %}
+</tr>

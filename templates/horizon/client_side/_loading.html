@@ -1,1 +1,12 @@
-../../../../../../../share/pyshared/horizon/templates/horizon/client_side/_loading.html
+{% extends "horizon/client_side/template.html" %}
+{% load i18n horizon %}
+
+{% block id %}spinner-modal{% endblock %}
+
+{% block template %}
+{% jstemplate %}
+<div class="modal loading hide">
+  <p>[[text]]&hellip;</p>
+</div>
+{% endjstemplate %}
+{% endblock %}

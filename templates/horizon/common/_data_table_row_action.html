@@ -1,1 +1,5 @@
-../../../../../../../share/pyshared/horizon/templates/horizon/common/_data_table_row_action.html
+{% if action.method != "GET" %}
+  <button {{ action.attr_string|safe }} name="action" value="{{ action.table.name }}__{{ action.name }}__{{ row_id }}" type="submit">{{ action.verbose_name }}</button>
+{% else %}
+  <a href='{{ action.bound_url }}' {{ action.attr_string|safe }}>{{ action.verbose_name }}</a>
+{% endif %}

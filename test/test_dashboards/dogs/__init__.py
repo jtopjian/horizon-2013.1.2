@@ -1,1 +1,0 @@
-../../../../../../../share/pyshared/horizon/test/test_dashboards/dogs/__init__.py

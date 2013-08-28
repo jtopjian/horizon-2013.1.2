@@ -1,1 +1,83 @@
-../../../../../../../share/pyshared/horizon/locale/fr/LC_MESSAGES/djangojs.po
+                                                                     
+                                                                     
+                                                                     
+                                             
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-18 22:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+
+#: static/horizon/js/horizon.forms.js:58
+msgid "Additional information here..."
+msgstr "Renseignements complémentaires ici…"
+
+#: static/horizon/js/horizon.forms.js:64
+#: static/horizon/js/horizon.projects.js:12
+msgid "Filter"
+msgstr "Filtre"
+
+#: static/horizon/js/horizon.instances.js:28
+msgid "There was a problem communicating with the server, please try again."
+msgstr "La communication n’a pu être établie avec le serveur. Essayez de nouveau."
+
+#: static/horizon/js/horizon.modals.js:125
+msgid "There was an error submitting the form. Please try again."
+msgstr "Une erreur est survenue lors de la soumission du formulaire. Essayez de nouveau."
+
+#: static/horizon/js/horizon.modals.js:159 static/horizon/js/horizon.tabs.js:9
+msgid "Loading"
+msgstr "Chargement"
+
+#: static/horizon/js/horizon.modals.js:178
+msgid "An error occurred. Please try again."
+msgstr "Une erreur est survenue. Essayez de nouveau."
+
+#: static/horizon/js/horizon.projects.js:9
+msgid "This project currently has no members."
+msgstr "Ce projet ne compte aucun membre pour l’instant."
+
+#: static/horizon/js/horizon.projects.js:10
+msgid "No more available users to add."
+msgstr "Plus aucun utilisateur disponible à ajouter."
+
+#: static/horizon/js/horizon.projects.js:11
+msgid "No users found."
+msgstr "Aucun utilisateur trouvé."
+
+#: static/horizon/js/horizon.tables.js:47
+msgid "An error occurred while updating."
+msgstr "Une erreur est survenue durant la mise à jour."
+
+#: static/horizon/js/horizon.tables.js:126
+msgid "Confirm "
+msgstr "Confirmer"
+
+#: static/horizon/js/horizon.tables.js:127
+msgid "Please confirm your selection. This action cannot be undone."
+msgstr "Confirmez votre choix. Cette action ne peut être annulée."
+
+#: static/horizon/js/horizon.tables.js:141
+msgid "Working"
+msgstr "Travail en cours"
+
+#: static/horizon/js/horizon.tables.js:184
+#, c-format
+msgid "Displaying %s item"
+msgid_plural "Displaying %s items"
+msgstr[0] "Affichage de %s élément"
+msgstr[1] "Affichage de %s éléments"

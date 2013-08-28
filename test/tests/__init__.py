@@ -1,1 +1,0 @@
-../../../../../../share/pyshared/horizon/test/tests/__init__.py

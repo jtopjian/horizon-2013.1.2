@@ -1,1 +1,1 @@
-../../../../../../../../../../share/pyshared/horizon/test/test_dashboards/dogs/static/dogs/js/dogs.js
+/* Additional JavaScript for dogs. */

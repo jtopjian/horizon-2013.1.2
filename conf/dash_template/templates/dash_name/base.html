@@ -1,1 +1,11 @@
-../../../../../../../../share/pyshared/horizon/conf/dash_template/templates/dash_name/base.html
+{% load horizon %}{% jstemplate %}[% extends 'base.html' %]
+
+[% block sidebar %]
+  [% include 'horizon/common/_sidebar.html' %]
+[% endblock %]
+
+[% block main %]
+    [% include "horizon/_messages.html" %]
+    [% block {{ dash_name }}_main %][% endblock %]
+[% endblock %]
+{% endjstemplate %}
