@@ -1,0 +1,1 @@
+../../../../../../../share/pyshared/horizon/locale/zh_HK/LC_MESSAGES/django.mo

@@ -1,0 +1,1 @@
+../../../../../../../share/pyshared/horizon/locale/pl/LC_MESSAGES/djangojs.mo
