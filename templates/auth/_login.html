@@ -1,7 +1,15 @@
 {% extends "horizon/common/_modal_form.html" %}
 {% load i18n %}
 
-{% block modal-header %}{% trans "Log In" %}{% endblock %}
+{% block modal-header %}
+{% if reseller_splash != 'logo.png' %}
+{% endif %}
+<div>
+    <img src="/static/dashboard/img/poweredbydair-small.png" class="pull-right clearfix">
+<br><br>
+{% trans "Log In" %}
+</div>
+{% endblock %}
 {% block modal_class %}login {% if hide %}modal hide{% endif %}{% endblock %}
 
 {% block form_action %}{% url login %}{% endblock %}
@@ -26,3 +34,4 @@
 {% block modal-footer %}
   <button type="submit" class="btn btn-primary pull-right">{% trans "Sign In" %}</button>
 {% endblock %}
+
