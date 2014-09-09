@@ -26,7 +26,11 @@
     <strong>{% trans "Used" %} <span> {{ usage.quotas.object_mb.used|intcomma }} MB </span>{% trans "of" %}<span> {{usage.quotas.object_mb.quota|intcomma }} MB</span> {% trans "Object Storage" %} </strong>
     {% horizon_progress_bar usage.quotas.object_mb.used usage.quotas.object_mb.quota %}
 
-    <strong>DAIR Use Agreement expires {{ usage.quotas.expiration.expiration_date }}</strong>
+    <strong>DAIR Use Agreement expires {{ usage.quotas.expiration.expiration_date }}</strong><br><br>
+    {{ usage.quota.dair_notice.dair_notice|safe }}
+    {% autoescape off %}
+    <font color="#99000">{{ usage.quotas.dair_notice.dair_notice }}</font>
+    {% endautoescape %}
     <br><br>
     <hr>
 </div>
